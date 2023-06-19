@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:lavender;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput {
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+.button-wrapper{
+    margin: 10px 0px;
+    
+}
+
+#searchButton{
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background-color:rgb(38, 207, 94);
+    color: #fff;
+    box-shadow: 1px 3px 5px black;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#searchButton:hover{
+    opacity: 0.9;
+    font-size: 14px;
+    transition:cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+
+#clearButton{
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px black;
+}
+
+#clearButton:hover{
+    opacity: 0.9;
+    font-size: 14px;
+    transition:cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+
+.imagelist-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagelist-wrapper > .card{
+    margin: 20px;
+    border: 1px solid gray; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px gray;
+}
+.imagelist-wrapper > .card:hover{
+    opacity: 0.90;
+    cursor: pointer;
+    background-color: aquamarine;
+}
